@@ -1,0 +1,30 @@
+{
+  "name": "ts-npm-package-boilerplate",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "description": "TS NPM Package Boilerplate",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simonorzel26/ts-npm-package-boilerplate"
+  },
+  "homepage": "https://github.com/simonorzel26/ts-npm-package-boilerplate",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "release": "pnpm run build && changeset publish",
+    "lint": "tsc"
+  },
+  "author": "Simon Orzel",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.26.0",
+    "typescript": "^5.3.3",
+    "tsup": "^8.0.1"
+  },
+  "dependencies": {}
+}
