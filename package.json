@@ -5,10 +5,10 @@
   "types": "dist/index.d.ts",
   "type": "module",
   "description": "TS NPM Package Boilerplate",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/simonorzel26/ts-npm-package-boilerplate"
+    "url": "git+https://github.com/simonorzel26/ts-npm-package-boilerplate.git"
   },
   "homepage": "https://github.com/simonorzel26/ts-npm-package-boilerplate",
   "files": [
@@ -26,5 +26,7 @@
     "typescript": "^5.3.3",
     "tsup": "^8.0.1"
   },
-  "dependencies": {}
+  "bugs": {
+    "url": "https://github.com/simonorzel26/ts-npm-package-boilerplate/issues"
+  }
 }
