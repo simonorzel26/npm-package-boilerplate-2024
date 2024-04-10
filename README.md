@@ -7,6 +7,7 @@ This TypeScript NPM package boilerplate is designed to kickstart the development
 ## Features
 
 - TypeScript for type safety.
+- Biome for linting and formatting.
 - Dual package output (CommonJS and ESM) for compatibility.
 - Type definitions for TypeScript projects.
 - Automated build and release scripts.
@@ -15,6 +16,7 @@ This TypeScript NPM package boilerplate is designed to kickstart the development
 
 - Node.js v19.8.1
 - `pnpm` (Follow [pnpm installation guide](https://pnpm.io/installation) if you haven't installed it)
+- [Biome](https://biomejs.dev/) for linting and formatting
 
 ## Installation
 
