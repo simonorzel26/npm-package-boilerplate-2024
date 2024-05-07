@@ -18,13 +18,59 @@ This TypeScript NPM package boilerplate is designed to kickstart the development
 - `pnpm` (Follow [pnpm installation guide](https://pnpm.io/installation) if you haven't installed it)
 - [Biome](https://biomejs.dev/) for linting and formatting
 
+## Reuse
+
+### Step 1: Clone the Boilerplate Repository
+
+First, clone the existing repository `simonorzel26/npm-package-boilerplate-2024` to your local machine. This step involves copying all the files from the original repository.
+
+```bash
+git clone https://github.com/simonorzel26/npm-package-boilerplate-2024.git <your-new-repository-name>
+cd <your-new-repository-name>
+```
+
+### Step 2: Remove the Existing Git History
+
+Since you're creating a new project, you'll likely want to start with a clean history:
+
+```bash
+rm -rf .git
+```
+
+This command removes the `.git` directory which contains all the git history of the original repository.
+
+### Step 3: Initialize a New Repository
+
+Now, initialize a new git repository:
+
+```bash
+git init
+git add .
+git commit -m "Initial commit based on npm-package-boilerplate-2024"
+```
+
+### Step 4: Create a New Repository on GitHub
+
+Go to GitHub and create a new repository named `<your-new-repository-name>`. Do not initialize it with a README, .gitignore, or license since you are importing an existing project.
+
+### Step 5: Push to GitHub
+
+Link your local repository to the GitHub repository and push the changes:
+
+```bash
+git remote add origin https://github.com/<your-username>/<your-new-repository-name>.git
+git branch -M main
+git push -u origin main
+```
+
+Replace `<your-username>` with your GitHub username.
+
+
 ## Installation
 
 To use this boilerplate for your project, clone the repository and install the dependencies.
 
 ```bash
-git clone https://github.com/simonorzel26/ts-npm-package-boilerplate your-package-name
-cd your-package-name
 pnpm install
 ```
 
