@@ -1,35 +1,29 @@
 {
-  "name": "ts-npm-package-boilerplate",
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
+  "name": "ts-npm-package-boilerplate-2024",
   "type": "module",
-  "description": "TS NPM Package Boilerplate",
+  "description": "TS NPM Package Boilerplate for 2024 ",
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/simonorzel26/ts-npm-package-boilerplate.git"
+    "url": "git+https://github.com/simonorzel26/ts-npm-package-boilerplate-2024.git"
   },
-  "homepage": "https://github.com/simonorzel26/ts-npm-package-boilerplate",
+  "homepage": "https://github.com/simonorzel26/ts-npm-package-boilerplate-2024",
   "files": [
     "dist/**/*"
   ],
   "scripts": {
-    "build": "tsup index.ts --format cjs,esm --dts",
-    "release": "pnpm run build && changeset publish",
-    "lint": "pnpm biome lint ./src  --apply",
-    "format": "pnpm biome format --write ./src",
-    "check": "pnpm biome check --apply ./src"
+    "build": "bun tsc",
+    "check": "bun biome check --write ./src"
   },
   "author": "Simon Orzel",
   "license": "MIT",
   "devDependencies": {
-    "@biomejs/biome": "1.6.4",
-    "@changesets/cli": "^2.26.0",
-    "tsup": "^8.0.1",
-    "typescript": "^5.3.3"
+    "@biomejs/biome": "1.8.3",
+    "@changesets/cli": "^2.27.7",
+    "@total-typescript/tsconfig": "^1.0.4",
+    "typescript": "^5.5.3"
   },
   "bugs": {
-    "url": "https://github.com/simonorzel26/ts-npm-package-boilerplate/issues"
+    "url": "https://github.com/simonorzel26/ts-npm-package-boilerplate-2024/issues"
   }
 }
