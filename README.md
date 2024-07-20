@@ -1,5 +1,4 @@
 
-
 # TS NPM Package Boilerplate (2024)
 
 This TypeScript NPM package boilerplate is designed to kickstart the development of TypeScript libraries for Node.js and the browser. It features a modern build setup with TypeScript, leveraging `tsup` for bundling and `@changesets/cli` for version management. The package exports a simple function as an example to demonstrate the setup.
@@ -14,7 +13,7 @@ This TypeScript NPM package boilerplate is designed to kickstart the development
 
 ## Prerequisites
 
-- Node.js v19.8.1
+- Node.js v22.5.1 (ensure you have this version by using `.nvmrc`)
 - `pnpm` (Follow [pnpm installation guide](https://pnpm.io/installation) if you haven't installed it)
 - [Biome](https://biomejs.dev/) for linting and formatting
 
@@ -65,7 +64,6 @@ git push -u origin main
 
 Replace `<your-username>` with your GitHub username.
 
-
 ## Installation
 
 To use this boilerplate for your project, clone the repository and install the dependencies.
@@ -106,7 +104,7 @@ export const newFunction = (): void => {
 Then, export it from `index.ts`:
 
 ```typescript
-// index.ts
+// src/index.ts
 export * from './newFunction';
 ```
 
@@ -116,12 +114,8 @@ Contributions are welcome! Please submit a pull request or create an issue for a
 
 ## License
 
-This project is open-sourced under the MIT License. See the [LICENSE](https://github.com/simonorzel26/ts-npm-package-boilerplate/blob/main/LICENSE) file for more details.
+This project is open-sourced under the MIT License. See the [LICENSE](https://github.com/simonorzel26/ts-npm-package-boilerplate-2024/blob/main/LICENSE) file for more details.
 
 ## Author
 
 Simon Orzel
-
----
-
-For more details and documentation, please visit the [project homepage](https://github.com/simonorzel26/ts-npm-package-boilerplate).
