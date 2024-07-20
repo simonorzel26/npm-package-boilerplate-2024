@@ -13,7 +13,9 @@
   ],
   "scripts": {
     "build": "tsc",
-    "check": "biome check --write ./src"
+    "check": "biome check --write ./src",
+    "workflow:check": "biome check ./src",
+    "release": "pnpm run build && changeset publish"
   },
   "author": "Simon Orzel",
   "license": "MIT",
