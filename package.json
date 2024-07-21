@@ -3,6 +3,8 @@
   "type": "module",
   "description": "TS NPM Package Boilerplate for 2024 ",
   "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/simonorzel26/ts-npm-package-boilerplate-2024.git"
